@@ -95,7 +95,7 @@ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
 <a href="https://drive.google.com/open?id=1ZZl1yOp3hJoRePZtDf-1DmOigN10Fv3u&usp=drive_fs" data-readdy="true" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
 <img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/f018a2263f52428e3c04f9dfa253b1e0.png" alt="DOCUMENTOS" class="w-full h-auto cursor-pointer">
 </a>
-<a href="#" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+<a href="https://drive.google.com/drive/folders/1ehces9Sovcgcg4q_gn8Yuy3ldesYYbFS?usp=sharing" data-readdy="true" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
 <img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/e0d1cdd86495c3839ba841162845af4c.png" alt="ORIENTAÇÕES" class="w-full h-auto cursor-pointer">
 </a>
 <a href="https://docs.google.com/document/d/1bDq-4HTRC2Ez9gBHeTWkmyRIAdXYQAdK/edit" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
