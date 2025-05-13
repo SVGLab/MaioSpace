@@ -14,10 +14,15 @@
 :where([class^="ri-"])::before { content: "\f3c2"; }
 body {
 background-color: #000;
-background-image: url('https://readdy.ai/api/search-image?query=deep%20space%20background%20with%20stars%20and%20distant%20planets%2C%20dark%20blue%20cosmic%20scene%2C%20high%20quality%20digital%20art&width=375&height=800&seq=12345&orientation=portrait');
+background-image: url('https://readdy.ai/api/search-image?query=deep%20space%20background%20with%20stars%20and%20distant%20planets%2C%20dark%20blue%20cosmic%20scene%2C%20high%20quality%20digital%20art&width=1920&height=1080&seq=12345&orientation=landscape');
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
+}
+@media (max-width: 768px) {
+body {
+background-image: url('https://readdy.ai/api/search-image?query=deep%20space%20background%20with%20stars%20and%20distant%20planets%2C%20dark%20blue%20cosmic%20scene%2C%20high%20quality%20digital%20art&width=375&height=800&seq=12345&orientation=portrait');
+}
 }
 .main-content {
 padding-top: 16px;
@@ -47,12 +52,12 @@ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
 }
 </style>
 </head>
-<body class="text-white min-h-screen flex flex-col">
-<div class="main-content flex-grow px-4 pt-4">
+<body class="text-white min-h-screen flex flex-col items-center">
+<div class="main-content flex-grow px-4 pt-4 w-full max-w-[1200px]">
 <!-- Logo Section -->
-<div class="flex justify-center mb-6">
+<div class="flex justify-center mb-4">
 <a href="https://drive.google.com/open?id=1ZZl1yOp3hJoRePZtDf-1DmOigN10Fv3u&usp=drive_fs" data-readdy="true">
-<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/e82d20be78a741376b35d67c4e6fc8df.png" alt="MAIÔ Space" class="w-48 h-auto">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/e5768502426a290ff91d84142663e142.png" alt="MAIÔ Space" class="w-56 h-auto">
 </a>
 </div>
 <div class="text-center mb-4">
@@ -78,12 +83,12 @@ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
 <span class="text-xs">Seg</span>
 </div>
 </div>
-<div class="text-center mb-6 text-sm">
-<p class="mb-2">A gente pensou em <span class="font-bold">cada detalhe</span> da campanha: tem <span class="font-bold">material pronto</span>, <span class="font-bold">cronograma atualizado diariamente</span>, <span class="font-bold">ideias de conteúdo</span>, <span class="font-bold">instruções de ativação</span> e muito mais. Um espaço pra todo mundo que é <span class="font-bold">MaiôTeam</span>!</p>
+<div class="text-center mb-6 text-base max-w-[800px] mx-auto">
+<p class="mb-2 md:text-lg">A gente pensou em <span class="font-bold">cada detalhe</span> da campanha: tem <span class="font-bold">material pronto</span>, <span class="font-bold">cronograma atualizado diariamente</span>, <span class="font-bold">ideias de conteúdo</span>, <span class="font-bold">instruções de ativação</span> e muito mais. Um espaço pra todo mundo que é <span class="font-bold">MaiôTeam</span>!</p>
 <p>Agora é com a gente: <span class="font-bold">bora fazer história</span> e transformar o <span class="font-bold">29 de Maiô</span> no <span class="font-bold">Dia Oficial da Maionese</span>!</p>
 </div>
 <!-- Action Buttons -->
-<div class="grid grid-cols-2 gap-3 mb-8">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-3 mb-8 max-w-[800px] mx-auto">
 <a href="https://bit.ly/29deMaio" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
 <img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/ca3e87f69e69d4689e57952d4b29474b.png" alt="SITE OFICIAL" class="w-full h-auto cursor-pointer">
 </a>
@@ -109,19 +114,19 @@ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
 <div class="flex justify-center mb-6">
 <img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/a6dfee55397244197e7e0f7e10bbd999.png" alt="MAIÔ Stars" class="w-48 h-auto">
 </div>
-<div class="text-center mb-6 text-sm">
-<p class="mb-2">São eles que, no <span class="font-bold">corre da loja</span>, no <span class="font-bold">atendimento</span>, na <span class="font-bold">chapa</span>, no <span class="font-bold">dia a dia</span>, fazem o <span class="font-bold">Digão brilhar</span>! Por isso, nada mais justo que um espaço só seu, nosso <span class="font-bold">MaiôStar</span>!</p>
+<div class="text-center mb-6 text-base max-w-[800px] mx-auto">
+<p class="mb-2 md:text-lg">São eles que, no <span class="font-bold">corre da loja</span>, no <span class="font-bold">atendimento</span>, na <span class="font-bold">chapa</span>, no <span class="font-bold">dia a dia</span>, fazem o <span class="font-bold">Digão brilhar</span>! Por isso, nada mais justo que um espaço só seu, nosso <span class="font-bold">MaiôStar</span>!</p>
 <p class="mb-2">Cada loja tem um <span class="font-bold">QR Code exclusivo</span> pra coletar assinaturas e mostrar que a maionese merece o seu lugar no calendário.</p>
 <p class="mb-2">Aqui você acessa tudo o que precisa pra entrar no jogo: seus <span class="font-bold">materiais</span>, seus <span class="font-bold">links</span> e seu <span class="font-bold">desempenho</span>.</p>
 <p>Vai ter <span class="font-bold">reconhecimento</span>. Vai ter <span class="font-bold">premiação</span>. Vai ter <span class="font-bold">MaiôFix</span> na conta da equipe que coletar mais assinaturas.</p>
 </div>
 <!-- Store Links Grid -->
-<div class="grid grid-cols-3 gap-2 mb-6">
+<div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-2 mb-6">
 <a href="https://drive.google.com/drive/folders/1cphYCLABPyKC3-4qk0tbSINzwjUO5QCt" data-readdy="true" class="link-card p-2 rounded text-white text-xs cursor-pointer flex items-center justify-center">BARBACENA</a>
 <a href="https://drive.google.com/drive/folders/1crhqE-dCNHbodKcijFKeOrxbC9S3Tc2P" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">BELO HORIZONTE</a>
-<a href="https://drive.google.com/drive/folders/1cvCJSZHSjheX1ZMD2PQ4nrprSnuQGmlr" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">CATAGUASES</a>
-<a href="https://drive.google.com/drive/folders/1d1RFM_a1lyNQp2zsB1NcIyAp_sE66n7G" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">CONTAGEM</a>
-<a href="https://drive.google.com/drive/folders/1cvH1l2MsmX2jsoDLDa6i0a2kC7m4ys6_" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">ITABIRA</a>
+<a href="https://drive.google.com/drive/folders/1cvCJSZHSjheX1ZMD2PQ4nrprSnuQGmlr" data-readdy="true" class="link-card p-2 rounded text-white text-xs cursor-pointer flex items-center justify-center">CATAGUASES</a>
+<a href="https://drive.google.com/drive/folders/1d1RFM_a1lyNQp2zsB1NcIyAp_sE66n7G" data-readdy="true" class="link-card p-2 rounded text-white text-xs cursor-pointer flex items-center justify-center">CONTAGEM</a>
+<a href="https://drive.google.com/drive/folders/1cvH1l2MsmX2jsoDLDa6i0a2kC7m4ys6_" data-readdy="true" class="link-card p-2 rounded text-white text-xs cursor-pointer flex items-center justify-center">ITABIRA</a>
 <a href="https://drive.google.com/drive/folders/1cvJonFZI41aFtYsSbraHZlwDojI7Ft4B" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">ITAPERUNA</a>
 <a href="https://drive.google.com/drive/folders/1ckRWeUBq4hRGoWWiKtBTh49VLgyEC7_r" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">JF_BAH</a>
 <a href="https://drive.google.com/drive/folders/1ckWHRejC2CF-2NEkNyRK6OFwwq0Y32lK" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">JF_CTR</a>
@@ -153,20 +158,20 @@ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
 </div>
 <!-- Tab Bar -->
 <div class="fixed bottom-0 w-full bg-black bg-opacity-80 backdrop-blur-md py-3 px-4">
-<div class="grid grid-cols-4 gap-2">
+<div class="grid grid-cols-4 gap-2 max-w-[1200px] mx-auto">
 <a href="#" class="flex flex-col items-center cursor-pointer">
 <div class="w-6 h-6 flex items-center justify-center">
 <i class="ri-home-4-line ri-lg text-primary"></i>
 </div>
 <span class="text-xs mt-1">Início</span>
 </a>
-<a href="#" class="flex flex-col items-center cursor-pointer">
+<a href="https://docs.google.com/document/d/1bDq-4HTRC2Ez9gBHeTWkmyRIAdXYQAdK/edit" data-readdy="true" class="flex flex-col items-center cursor-pointer">
 <div class="w-6 h-6 flex items-center justify-center">
 <i class="ri-calendar-line ri-lg"></i>
 </div>
 <span class="text-xs mt-1">Cronograma</span>
 </a>
-<a href="#" class="flex flex-col items-center cursor-pointer">
+<a href="https://drive.google.com/drive/folders/1ZZl1yOp3hJoRePZtDf-1DmOigN10Fv3u" data-readdy="true" class="flex flex-col items-center cursor-pointer">
 <div class="w-6 h-6 flex items-center justify-center">
 <i class="ri-file-list-3-line ri-lg"></i>
 </div>
