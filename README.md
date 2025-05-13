@@ -51,7 +51,9 @@ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
 <div class="main-content flex-grow px-4 pt-4">
 <!-- Logo Section -->
 <div class="flex justify-center mb-6">
+<a href="https://drive.google.com/open?id=1ZZl1yOp3hJoRePZtDf-1DmOigN10Fv3u&usp=drive_fs" data-readdy="true">
 <img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/e82d20be78a741376b35d67c4e6fc8df.png" alt="MAIÔ Space" class="w-48 h-auto">
+</a>
 </div>
 <div class="text-center mb-4">
 <h1 class="text-2xl font-bold text-[#F7B731] my-2">Juntos, vamos fazer nossa Maiô brilhar no dia 29!</h1>
@@ -77,17 +79,16 @@ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
 </div>
 </div>
 <div class="text-center mb-6 text-sm">
-<p class="mb-2">A gente pensou em <span class="font-bold">cada detalhe</span> dessa campanha: tem <span class="font-bold">material pronto</span>, <span class="font-bold">cronograma mastigado</span>, <span class="font-bold">ideias de conteúdo</span>, <span class="font-bold">instruções de ativação</span> e muito mais.
-Do gerente ao atendente, da chapa ao balcão - todo mundo é <span class="font-bold">MaiôTeam</span></p>
-<p>Agora é com a gente: <span class="font-bold">bora fazer história</span> e transformar o <span class="font-bold">29 de Maiô</span> no <span class="font-bold">dia oficial da Maionese</span>!</p>
+<p class="mb-2">A gente pensou em <span class="font-bold">cada detalhe</span> da campanha: tem <span class="font-bold">material pronto</span>, <span class="font-bold">cronograma atualizado diariamente</span>, <span class="font-bold">ideias de conteúdo</span>, <span class="font-bold">instruções de ativação</span> e muito mais. Um espaço pra todo mundo que é <span class="font-bold">MaiôTeam</span>!</p>
+<p>Agora é com a gente: <span class="font-bold">bora fazer história</span> e transformar o <span class="font-bold">29 de Maiô</span> no <span class="font-bold">Dia Oficial da Maionese</span>!</p>
 </div>
 <!-- Action Buttons -->
 <div class="grid grid-cols-2 gap-3 mb-8">
 <a href="https://bit.ly/29deMaio" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
 <img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/ca3e87f69e69d4689e57952d4b29474b.png" alt="SITE OFICIAL" class="w-full h-auto cursor-pointer">
 </a>
-<a href="https://bit.ly/MaioDocs" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
-<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/58140420c4a4f31750703c1621534f4c.png" alt="PROJETO DE LEI" class="w-full h-auto cursor-pointer">
+<a href="https://drive.google.com/open?id=1ZZl1yOp3hJoRePZtDf-1DmOigN10Fv3u&usp=drive_fs" data-readdy="true" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/f018a2263f52428e3c04f9dfa253b1e0.png" alt="DOCUMENTOS" class="w-full h-auto cursor-pointer">
 </a>
 <a href="#" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
 <img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/e0d1cdd86495c3839ba841162845af4c.png" alt="ORIENTAÇÕES" class="w-full h-auto cursor-pointer">
@@ -95,8 +96,8 @@ Do gerente ao atendente, da chapa ao balcão - todo mundo é <span class="font-b
 <a href="https://docs.google.com/document/d/1bDq-4HTRC2Ez9gBHeTWkmyRIAdXYQAdK/edit" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
 <img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/b518b25ee539cf2d1758619ce01f6a85.png" alt="CRONOGRAMA" class="w-full h-auto cursor-pointer">
 </a>
-<a href="https://drive.google.com/drive/folders/1d4u7ZL_YlJKF5pAnj3JFMKR0zz0Ypw-w" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
-<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/9906953d2bbddd81b04c0b3df4c42705.png" alt="DOCUMENTOS" class="w-full h-auto cursor-pointer">
+<a href="https://bit.ly/MaioDocs" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/58140420c4a4f31750703c1621534f4c.png" alt="PROJETO DE LEI" class="w-full h-auto cursor-pointer">
 </a>
 <a href="https://drive.google.com/drive/folders/1cjsI5wDtYArQQ749brjAJXF3GtLBQ9ig?usp=sharing" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
 <img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/d40201d9ae8db19076f00923bd6d005d.png" alt="ATIVAÇÕES" class="w-full h-auto cursor-pointer">
@@ -109,14 +110,13 @@ Do gerente ao atendente, da chapa ao balcão - todo mundo é <span class="font-b
 <img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/a6dfee55397244197e7e0f7e10bbd999.png" alt="MAIÔ Stars" class="w-48 h-auto">
 </div>
 <div class="text-center mb-6 text-sm">
-<p class="mb-2">A gente sabe quem faz o <span class="font-bold">Digão acontecer</span>: é você, no corre da loja, no atendimento, na chapa, no dia a dia. O <span class="font-bold">MaiôStars</span> é o espaço pra valorizar quem <span class="font-bold">brilha nos bastidores</span> — e que agora vai brilhar também na campanha.</p>
+<p class="mb-2">São eles que, no <span class="font-bold">corre da loja</span>, no <span class="font-bold">atendimento</span>, na <span class="font-bold">chapa</span>, no <span class="font-bold">dia a dia</span>, fazem o <span class="font-bold">Digão brilhar</span>! Por isso, nada mais justo que um espaço só seu, nosso <span class="font-bold">MaiôStar</span>!</p>
 <p class="mb-2">Cada loja tem um <span class="font-bold">QR Code exclusivo</span> pra coletar assinaturas e mostrar que a maionese merece o seu lugar no calendário.</p>
 <p class="mb-2">Aqui você acessa tudo o que precisa pra entrar no jogo: seus <span class="font-bold">materiais</span>, seus <span class="font-bold">links</span> e seu <span class="font-bold">desempenho</span>.</p>
-<p>Vai ter <span class="font-bold">reconhecimento</span>. Vai ter <span class="font-bold">premiação</span>. Vai ter <span class="font-bold">MaiôFix</span> na conta.</p>
+<p>Vai ter <span class="font-bold">reconhecimento</span>. Vai ter <span class="font-bold">premiação</span>. Vai ter <span class="font-bold">MaiôFix</span> na conta da equipe que coletar mais assinaturas.</p>
 </div>
 <!-- Store Links Grid -->
 <div class="grid grid-cols-3 gap-2 mb-6">
-<a href="https://drive.google.com/drive/folders/1coeMttrT_CZyk4sDWn18_za7DvheIoyM?usp=sharing" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">ALÉM PARAÍBA</a>
 <a href="https://drive.google.com/drive/folders/1cphYCLABPyKC3-4qk0tbSINzwjUO5QCt" data-readdy="true" class="link-card p-2 rounded text-white text-xs cursor-pointer flex items-center justify-center">BARBACENA</a>
 <a href="https://drive.google.com/drive/folders/1crhqE-dCNHbodKcijFKeOrxbC9S3Tc2P" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">BELO HORIZONTE</a>
 <a href="https://drive.google.com/drive/folders/1cvCJSZHSjheX1ZMD2PQ4nrprSnuQGmlr" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">CATAGUASES</a>
