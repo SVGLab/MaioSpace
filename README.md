@@ -1,99 +1,240 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MaiôSpace</title>
-  <style>
-    body { font-family: sans-serif; margin: 0; background-color: #000; color: #fff; text-align: center; }
-    .container { max-width: 800px; margin: auto; padding: 20px; }
-    .buttons a { display: inline-block; margin: 10px; padding: 10px 20px; background: #f4c85d; color: #000; text-decoration: none; border-radius: 8px; font-weight: bold; }
-    .unit-buttons a { display: inline-block; margin: 5px; padding: 8px 16px; background: #da3815; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 0.9em; }
-    .section { margin: 60px 0; }
-    img.logo { max-width: 300px; }
-    .counter { font-size: 1.5em; margin-top: 10px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAIÔ Space</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#2D88C9',secondary:'#F7B731'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+background-color: #000;
+background-image: url('https://readdy.ai/api/search-image?query=deep%20space%20background%20with%20stars%20and%20distant%20planets%2C%20dark%20blue%20cosmic%20scene%2C%20high%20quality%20digital%20art&width=375&height=800&seq=12345&orientation=portrait');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.main-content {
+padding-top: 16px;
+}
+.countdown-item {
+background-color: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-content {
+padding-top: 80px;
+padding-bottom: 80px;
+}
+.stars-section {
+background-color: #F7B731;
+}
+.footer-section {
+background-color: #E63E19;
+}
+.link-card {
+background-color: #E63E19;
+transition: all 0.3s ease;
+}
+.link-card:hover {
+transform: translateY(-3px);
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+</style>
 </head>
-<body>
-  <div class="container">
-    <img src="Topo.png" alt="MaiôSpace" class="logo">
-    <div class="counter" id="contador"></div>
-    <p>
-      A gente pensou em cada detalhe dessa campanha pra facilitar sua vida aí na operação.<br>
-      Tem material pronto, cronograma mastigado, ideias de conteúdo, instruções de ativação e muito mais.<br><br>
-      Mas mais do que isso, esse espaço é seu. Do gerente ao atendente, da chapa ao balcão — todo mundo faz parte do <strong>MaiôTeam</strong>.<br>
-      Agora é com a gente: bora fazer história, mostrar que a Maiô é a Maior e transformar o 29 de Maiô no dia mais cremoso do ano!
-    </p>
-
-    <div class="section buttons">
-      <a href="https://bit.ly/29deMaio" target="_blank">Site</a>
-      <a href="https://bit.ly/MaioDocs" target="_blank">Projeto de Lei</a>
-      <a href="https://bit.ly/maiôcrono" target="_blank">Cronograma</a>
-      <a href="#">Manual</a>
-      <a href="https://drive.google.com/open?id=1d4u7ZL_YlJKF5pAnj3JFMKR0zz0Ypw-w&usp=drive_fs" target="_blank">Documentos</a>
-      <a href="#">Ativações</a>
-    </div>
-
-    <div class="section">
-      <img src="Stars.png" alt="MyôStars" class="logo">
-      <p>
-        A gente sabe quem faz o Digão acontecer: é você, no corre da loja, no atendimento, na chapa, no dia a dia.<br>
-        O <strong>MyôStars</strong> é o espaço pra valorizar quem brilha nos bastidores — e que agora vai brilhar também na campanha.<br>
-        Cada loja tem um <strong>LINK e QR Code exclusivo</strong> pra coletar assinaturas e mostrar que a maionese merece o seu lugar no calendário.<br>
-        Aqui você acessa tudo o que precisa pra entrar no jogo: seus materiais, seus links e seu desempenho.<br><br>
-        Vai ter reconhecimento. Vai ter premiação. Vai ter <strong>MaiôPix</strong> na conta.
-      </p>
-      <div class="unit-buttons">
-        <a href="https://drive.google.com/open?id=1COEMTTRT_CZYK4SDWN18_ZA7DVHEIOYM">ALÉM PARAÍBA</a>
-        <a href="https://drive.google.com/open?id=1CPHYCLABPYKC3-4QK0TBSINZWJUO5QCT">BARBACENA</a>
-        <a href="https://drive.google.com/open?id=1CRHQE-DCNHBODKCIJFKEORXBC9S3TC2P">BELO HORIZONTE</a>
-        <a href="https://drive.google.com/open?id=1CVCJSZHSJHEX1ZMD2PQ4NRPRSNUQGMLR">CATAGUASES</a>
-        <a href="https://drive.google.com/open?id=1D1RFM_A1LYNQP2ZSB1NCIYAP_SE66N7G">CONTAGEM</a>
-        <a href="https://drive.google.com/open?id=1CVH1L2MSMX2JSODLDA6I0A2KC7M4YS6_">ITABIRA</a>
-        <a href="https://drive.google.com/open?id=1CVJONFZI41AFTYSSBRAHZLWDOJI7FT4B">ITAPERUNA</a>
-        <a href="https://drive.google.com/open?id=1CKRWEUBQ4HRGOWWIKTBTH49VLGYEC7_R">JF_BAH</a>
-        <a href="https://drive.google.com/open?id=1CKWHREJC2CF-2NEKNYRK6OFWWQ0Y32LK">JF_CTR</a>
-        <a href="https://drive.google.com/open?id=1CLUVRCQGZUC8IOPJSDU7-ZJZQEAKTWAW">JF_DEM</a>
-        <a href="https://drive.google.com/open?id=1CKGGASWYV9YSZA3VDG5I5A6PJZYTU8R2">JF_IND</a>
-        <a href="https://drive.google.com/open?id=1CMDRUC2GLHUAR2VQYCMA3W4JSHA71N0P">JF_JDN</a>
-        <a href="https://drive.google.com/open?id=1CLOP1ZVGZ4GPOGSHLJSAWZ-FMNZG_YZI">JF_SMT</a>
-        <a href="https://drive.google.com/open?id=1CNZQWGJJEJC5H0E2FSHQCEVD9WA2X5QY">JF_SPD</a>
-        <a href="https://drive.google.com/open?id=1CVKOPUIAUVMQQDR8YV6DA66QQLQUL6VO">LAFAIETE</a>
-        <a href="https://drive.google.com/open?id=1CVE0KBXICJ-KR4VFDRKRAVOZFM8R2D6I">LEO_CTR1</a>
-        <a href="https://drive.google.com/open?id=1CVJ9PRHZ30G8WI5B_-_SUPL5FEL2WFLZ">LEO_CTR2</a>
-        <a href="https://drive.google.com/open?id=1CX2_MXSGRHWNBA2LRWFMJINJ9ECLCONX">LEO_GIN</a>
-        <a href="https://drive.google.com/open?id=1D-PB5SBITVRPK_KFBJEXHXO25J5LURSX">MURIAÉ</a>
-        <a href="https://drive.google.com/open?id=1D0OZHCZW0A6OV-TCOQI1LUQF6GAQGXGH">UBÁ</a>
-        <a href="https://drive.google.com/open?id=1D1010F0VEWBJRPWRFPBPZEYNU9TLUAQJ">VIÇOSA</a>
-      </div>
-    </div>
-
-    <div class="section">
-      <img src="ia.png" alt="M.A.I.ONESE">
-      <h3>MaiôDúvidas?</h3>
-      <p>Em breve você poderá conversar com o M.A.I.ONESE direto por aqui.</p>
-    </div>
-  </div>
-
-  <script>
-    const contador = document.getElementById("contador");
-    const alvo = new Date("May 29, 2025 00:00:00").getTime();
-    const timer = setInterval(() => {
-      const agora = new Date().getTime();
-      const distancia = alvo - agora;
-
-      const dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
-      const horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
-      const segundos = Math.floor((distancia % (1000 * 60)) / 1000);
-
-      contador.innerHTML = `${dias} dias ${horas}h ${minutos}min ${segundos}s para o 29 de Maiô`
-
-      if (distancia < 0) {
-        clearInterval(timer);
-        contador.innerHTML = "É hoje o Dia da Maiô!";
-      }
-    }, 1000);
-  </script>
+<body class="text-white min-h-screen flex flex-col">
+<div class="main-content flex-grow px-4 pt-4">
+<!-- Logo Section -->
+<div class="flex justify-center mb-6">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/e82d20be78a741376b35d67c4e6fc8df.png" alt="MAIÔ Space" class="w-48 h-auto">
+</div>
+<div class="text-center mb-4">
+<h1 class="text-2xl font-bold text-[#F7B731] my-2">Juntos, vamos fazer nossa Maiô brilhar no dia 29!</h1>
+</div>
+<!-- Countdown Section -->
+<div class="mb-8">
+<div class="flex justify-center space-x-2 mb-6">
+<div class="countdown-item w-16 h-16 flex flex-col items-center justify-center rounded">
+<span id="days" class="text-xl font-bold">19</span>
+<span class="text-xs">Dias</span>
+</div>
+<div class="countdown-item w-16 h-16 flex flex-col items-center justify-center rounded">
+<span id="hours" class="text-xl font-bold">13</span>
+<span class="text-xs">Horas</span>
+</div>
+<div class="countdown-item w-16 h-16 flex flex-col items-center justify-center rounded">
+<span id="minutes" class="text-xl font-bold">16</span>
+<span class="text-xs">Min</span>
+</div>
+<div class="countdown-item w-16 h-16 flex flex-col items-center justify-center rounded">
+<span id="seconds" class="text-xl font-bold">34</span>
+<span class="text-xs">Seg</span>
+</div>
+</div>
+<div class="text-center mb-6 text-sm">
+<p class="mb-2">A gente pensou em <span class="font-bold">cada detalhe</span> dessa campanha: tem <span class="font-bold">material pronto</span>, <span class="font-bold">cronograma mastigado</span>, <span class="font-bold">ideias de conteúdo</span>, <span class="font-bold">instruções de ativação</span> e muito mais.
+Do gerente ao atendente, da chapa ao balcão - todo mundo é <span class="font-bold">MaiôTeam</span></p>
+<p>Agora é com a gente: <span class="font-bold">bora fazer história</span> e transformar o <span class="font-bold">29 de Maiô</span> no <span class="font-bold">dia oficial da Maionese</span>!</p>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-2 gap-3 mb-8">
+<a href="https://bit.ly/29deMaio" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/ca3e87f69e69d4689e57952d4b29474b.png" alt="SITE OFICIAL" class="w-full h-auto cursor-pointer">
+</a>
+<a href="https://bit.ly/MaioDocs" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/58140420c4a4f31750703c1621534f4c.png" alt="PROJETO DE LEI" class="w-full h-auto cursor-pointer">
+</a>
+<a href="#" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/e0d1cdd86495c3839ba841162845af4c.png" alt="ORIENTAÇÕES" class="w-full h-auto cursor-pointer">
+</a>
+<a href="https://docs.google.com/document/d/1bDq-4HTRC2Ez9gBHeTWkmyRIAdXYQAdK/edit" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/b518b25ee539cf2d1758619ce01f6a85.png" alt="CRONOGRAMA" class="w-full h-auto cursor-pointer">
+</a>
+<a href="https://drive.google.com/drive/folders/1d4u7ZL_YlJKF5pAnj3JFMKR0zz0Ypw-w" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/9906953d2bbddd81b04c0b3df4c42705.png" alt="DOCUMENTOS" class="w-full h-auto cursor-pointer">
+</a>
+<a href="https://drive.google.com/drive/folders/1cjsI5wDtYArQQ749brjAJXF3GtLBQ9ig?usp=sharing" class="flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/d40201d9ae8db19076f00923bd6d005d.png" alt="ATIVAÇÕES" class="w-full h-auto cursor-pointer">
+</a>
+</div>
+</div>
+<!-- Stars Section -->
+<div class="stars-section text-black rounded-t-2xl p-6">
+<div class="flex justify-center mb-6">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/a6dfee55397244197e7e0f7e10bbd999.png" alt="MAIÔ Stars" class="w-48 h-auto">
+</div>
+<div class="text-center mb-6 text-sm">
+<p class="mb-2">A gente sabe quem faz o <span class="font-bold">Digão acontecer</span>: é você, no corre da loja, no atendimento, na chapa, no dia a dia. O <span class="font-bold">MaiôStars</span> é o espaço pra valorizar quem <span class="font-bold">brilha nos bastidores</span> — e que agora vai brilhar também na campanha.</p>
+<p class="mb-2">Cada loja tem um <span class="font-bold">QR Code exclusivo</span> pra coletar assinaturas e mostrar que a maionese merece o seu lugar no calendário.</p>
+<p class="mb-2">Aqui você acessa tudo o que precisa pra entrar no jogo: seus <span class="font-bold">materiais</span>, seus <span class="font-bold">links</span> e seu <span class="font-bold">desempenho</span>.</p>
+<p>Vai ter <span class="font-bold">reconhecimento</span>. Vai ter <span class="font-bold">premiação</span>. Vai ter <span class="font-bold">MaiôFix</span> na conta.</p>
+</div>
+<!-- Store Links Grid -->
+<div class="grid grid-cols-3 gap-2 mb-6">
+<a href="https://drive.google.com/drive/folders/1coeMttrT_CZyk4sDWn18_za7DvheIoyM?usp=sharing" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">ALÉM PARAÍBA</a>
+<a href="https://drive.google.com/drive/folders/1cphYCLABPyKC3-4qk0tbSINzwjUO5QCt" data-readdy="true" class="link-card p-2 rounded text-white text-xs cursor-pointer flex items-center justify-center">BARBACENA</a>
+<a href="https://drive.google.com/drive/folders/1crhqE-dCNHbodKcijFKeOrxbC9S3Tc2P" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">BELO HORIZONTE</a>
+<a href="https://drive.google.com/drive/folders/1cvCJSZHSjheX1ZMD2PQ4nrprSnuQGmlr" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">CATAGUASES</a>
+<a href="https://drive.google.com/drive/folders/1d1RFM_a1lyNQp2zsB1NcIyAp_sE66n7G" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">CONTAGEM</a>
+<a href="https://drive.google.com/drive/folders/1cvH1l2MsmX2jsoDLDa6i0a2kC7m4ys6_" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">ITABIRA</a>
+<a href="https://drive.google.com/drive/folders/1cvJonFZI41aFtYsSbraHZlwDojI7Ft4B" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">ITAPERUNA</a>
+<a href="https://drive.google.com/drive/folders/1ckRWeUBq4hRGoWWiKtBTh49VLgyEC7_r" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">JF_BAH</a>
+<a href="https://drive.google.com/drive/folders/1ckWHRejC2CF-2NEkNyRK6OFwwq0Y32lK" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">JF_CTR</a>
+<a href="https://drive.google.com/drive/folders/1clUvrcqgzUC8IOPJSDu7-zJzqEakTwAw" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">JF_DEM</a>
+<a href="https://drive.google.com/drive/folders/1ckGGaswyV9YszA3vDg5i5a6PJZytU8r2" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">JF_IND</a>
+<a href="https://drive.google.com/drive/folders/1cmDRUc2GlhUaR2VqYcMA3W4jshA71N0p" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">JF_JDN</a>
+<a href="https://drive.google.com/drive/folders/1cloP1ZvGz4gpOgsHlJSAWZ-FMnzg_YZi" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">JF_SMT</a>
+<a href="https://drive.google.com/drive/folders/1cnzqwgjjejc5h0E2FshQcEVd9wa2X5Qy" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">JF_SPD</a>
+<a href="https://drive.google.com/drive/folders/1cvKOPUiAUVmqQDr8yv6dA66qQLQUl6Vo" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">LAFAIETE</a>
+<a href="https://drive.google.com/drive/folders/1cve0kBXIcj-Kr4vFDRKrAvoZFm8R2D6i" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">LEO_CTR1</a>
+<a href="https://drive.google.com/drive/folders/1cvj9Prhz30G8WI5b_-_SUPl5FeL2wflZ" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">LEO_CTR2</a>
+<a href="https://drive.google.com/drive/folders/1cx2_mxsGRHwnBa2lrWfMJiNJ9eClCOnx" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">LEO_GIN</a>
+<a href="https://drive.google.com/drive/folders/1d-pB5SbitvRpk_KfbjeXhXO25j5lurSX" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">MURIAÉ</a>
+<a href="https://drive.google.com/drive/folders/1d0oZHcZw0a6OV-TcoqI1LuqF6GAqGxgH" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">UBÁ</a>
+<a href="https://drive.google.com/drive/folders/1d1010f0VEWbjrPwRFPBpZEyNu9TLUaqj" data-readdy="true" class="link-card p-2 rounded text-white text-center text-xs cursor-pointer">VIÇOSA</a>
+</div>
+</div>
+<!-- Footer Section -->
+<div class="footer-section p-6 text-white">
+<div class="flex justify-center mb-4">
+<h2 class="text-2xl font-['Segoe UI'] font-bold">Maiô Dúvidas?</h2>
+</div>
+<div class="flex justify-center">
+<div class="relative w-48 h-48">
+<img src="https://static.readdy.ai/image/e8f4592c056c52e35d8eebf07008d1d2/9fee4e4b75d070b5d3b703155981ce52.png" alt="Suporte" class="w-full h-full object-contain">
+</div>
+</div>
+</div>
+</div>
+<!-- Tab Bar -->
+<div class="fixed bottom-0 w-full bg-black bg-opacity-80 backdrop-blur-md py-3 px-4">
+<div class="grid grid-cols-4 gap-2">
+<a href="#" class="flex flex-col items-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-home-4-line ri-lg text-primary"></i>
+</div>
+<span class="text-xs mt-1">Início</span>
+</a>
+<a href="#" class="flex flex-col items-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-calendar-line ri-lg"></i>
+</div>
+<span class="text-xs mt-1">Cronograma</span>
+</a>
+<a href="#" class="flex flex-col items-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-file-list-3-line ri-lg"></i>
+</div>
+<span class="text-xs mt-1">Materiais</span>
+</a>
+<a href="#" class="flex flex-col items-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-question-line ri-lg"></i>
+</div>
+<span class="text-xs mt-1">Ajuda</span>
+</a>
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// Set the date we're counting down to (May 29, 2025)
+const countDownDate = new Date("May 29, 2025 00:00:00").getTime();
+// Update the countdown every 1 second
+const x = setInterval(function() {
+const now = new Date().getTime();
+const distance = countDownDate - now;
+const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+document.getElementById("days").innerHTML = days;
+document.getElementById("hours").innerHTML = hours;
+document.getElementById("minutes").innerHTML = minutes;
+document.getElementById("seconds").innerHTML = seconds;
+if (distance < 0) {
+clearInterval(x);
+document.getElementById("days").innerHTML = "0";
+document.getElementById("hours").innerHTML = "0";
+document.getElementById("minutes").innerHTML = "0";
+document.getElementById("seconds").innerHTML = "0";
+}
+}, 1000);
+});
+// Handle button clicks
+document.addEventListener('DOMContentLoaded', function() {
+const buttons = document.querySelectorAll('button');
+buttons.forEach(button => {
+button.addEventListener('click', function() {
+const buttonText = this.textContent.trim();
+let url = '#';
+switch(buttonText) {
+case 'SITE OFICIAL':
+url = 'https://bit.ly/29deMaio';
+break;
+case 'PROJETO DE LEI':
+url = 'https://bit.ly/MaioDocs';
+break;
+case 'MANUAL DA CAMPANHA':
+// URL aguardando
+break;
+case 'CRONOGRAMA':
+url = 'https://docs.google.com/document/d/1bDq-4HTRC2Ez9gBHeTWkmyRIAdXYQAdK/edit';
+break;
+case 'DOCUMENTOS':
+url = 'https://docs.google.com/document/d/1bDq-4HTRC2Ez9gBHeTWkmyRIAdXYQAdK/edit';
+break;
+}
+if (url !== '#') {
+window.open(url, '_blank');
+}
+});
+});
+});
+</script>
 </body>
 </html>
